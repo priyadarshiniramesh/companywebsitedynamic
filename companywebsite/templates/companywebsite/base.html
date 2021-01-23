@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PRIYA PRIVATE LIMITED</title>
+    <link rel="stylesheet" href="{% static 'css/company.css' %}">
+   
+    <link rel = "icon" href ="{% static 'image/titleicon.jpg' %}" type = "image/x-icon"> 
+              
+</head>
+
+<body>
+    <div class="container">
+    <div class="banner">
+       <b>SILICON PRIVATE LIMITED</b>
+    </div>
+    <div class="menu">
+        <b><div class="menuitem"><a href="/home">Home</a></div></b>
+        <b><div class="menuitem"><a href="/product">Products</a></div></b> 
+        <b><div class="menuitem"><a href="/people">People</a></div></b>
+        <b><div class="menuitem"><a href="/contactus">Contact Us</a></div></b>
+    </div><div class="content">
+    {% block content %}    
+    {% endblock  %}
+    </div>
+    <div class="footer">
+        <b>Copyright © 2020 Silicon Private Limited, Developed by PRIYADARSHINI</b>
+    </div>
+    </div>
+</body>
+
+</html>

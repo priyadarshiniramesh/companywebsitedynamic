@@ -1,0 +1,20 @@
+{% extends "companywebsite/base.html" %}
+
+{% block content %}
+    <div class="productcontent">    
+    <h1>Our Premium Products</h1>
+    <div class="productitems">
+        {% for product in products %}
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="{{ product.photos.url }}" alt="product image">
+            </div>
+            <div class="itemname">{{product.Name}}</div> 
+            <div class="itemprice">Price : {{product.Price}}</div>
+        </div>
+        {% endfor %}
+        
+         
+    </div>
+    </div>
+{% endblock  %}
