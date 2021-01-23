@@ -157,10 +157,10 @@ Publish the website in the given URL.
 ```
 ## OUTPUT:
 
-![output](./static/image/out 1.jpg)
-![output](./static/image/out 2.jpg)
-![output](./static/image/out 3.jpg)
-![output](./static/image/out 4.jpg)
+![output](./static/image/out1.jpg)
+![output](./static/image/out2.jpg)
+![output](./static/image/out3.jpg)
+![output](./static/image/out4.jpg)
 
 ## VALIDATION REPORT 
 
@@ -173,4 +173,4 @@ Publish the website in the given URL.
 
 ## RESULT:
 
-         Thus a website is designed for the chip manufacturing company and is hosted in thr URL http://priyadarshini.student.saveetha.in:8000/ .HTML code is validate.
+   Thus a website is designed for the chip manufacturing company and is hosted in thr URL http://priyadarshini.student.saveethain:8000/ .HTML code is validate.
